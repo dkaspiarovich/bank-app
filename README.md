@@ -13,9 +13,9 @@ Welcome to the Bank Application!
     - Username: Sara, Password: 1111
     - Username: Kate, Password: 2222
 - **Sign up:** Create a new account:
-  1. Enter your name.
-  2. Setting and confirm the password.
-  3. Сhoose a country from following options:
+1. Enter your name.
+2. Setting and confirm the password.
+3. Сhoose a country from following options:
      - UK
      - USA
      - Russia
