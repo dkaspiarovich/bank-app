@@ -38,6 +38,7 @@ Welcome to the Bank Application!
 ### User interface
 - **Current Balance:** Your current account balance.
 - **Activity Timer:** A timer counts down from 2 minutes. If no actions are performed within this period, you will be automatically logged out.
+- **Notifications:** User will be notified with all errors occurred.
 
 ## Installation and Setup
 
