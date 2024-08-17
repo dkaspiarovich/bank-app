@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bank application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="welcome">
+        <p class="text welcome__text">Welcome to log in</p>
+        <input
+          type="text"
+          placeholder="user"
+          maxlength="10"
+          class="input welcome__input welcome__input--user"
+        />
+        <input
+          type="password"
+          placeholder="password"
+          maxlength="4"
+          class="input welcome__input welcome__input--password"
+        />
+        <button class="btn welcome__btn--log-in">Log in</button>
+        <button class="btn welcome__btn--sign-up">Sign up</button>
+      </div>
+      <div class="registration">
+        <p class="text registration__text">Sign up</p>
+        <input
+          type="text"
+          placeholder="username"
+          maxlength="10"
+          class="input registration__input registration__input--user"
+        />
+        <input
+          type="password"
+          placeholder="password"
+          maxlength="4"
+          class="input registration__input registration__input--password"
+        />
+        <input
+          type="password"
+          placeholder="confirm password"
+          maxlength="4"
+          class="input registration__input registration__input--confirm-password"
+        />
+        <select class="input" id="country">
+          <option
+            data-currency=""
+            data-localization=""
+            currency-value=""
+          ></option>
+        </select>
+
+        <button class="btn registration__btn--log-in">Log in</button>
+        <button class="btn registration__btn--sign-up">Sign up</button>
+      </div>
+      <div class="application">
+        <div class="application--item information">
+          <div class="information__welcome">
+            <p class="information__welcome--text">
+              Welcome, <span class="name">Dasha</span>
+            </p>
+            <p class="information__welcome--date">12.04.2024 18:45</p>
+          </div>
+          <div class="information__balance">
+            <p class="information__balance--text">your balance</p>
+            <p class="information__balance--value">25 000$</p>
+          </div>
+          <div class="information__summary">
+            <div class="summary__item summary__incomes">
+              <p class="summary__label summary__incomes--label">incomes</p>
+              <p class="summary__value summary__incomes--value">13 000$</p>
+            </div>
+            <div class="summary__item summary__outcomes">
+              <p class="summary__label summary__outcomes--label">outcomes</p>
+              <p class="summary__value summary__outcomes--value">1000$</p>
+            </div>
+            <div class="summary__item summary__interest">
+              <p class="summary__label summary__interest--label">interest</p>
+              <p class="summary__value summary__interest--value">390$</p>
+            </div>
+          </div>
+          <div class="information__timer">
+            <p>You will be loged out in <span class="timer">03:49</span></p>
+          </div>
+          <button class="btn btn__logout">Log out</button>
+        </div>
+        <div class="application--item transactions">
+          <div class="transaction__item">
+            <div class="transaction__date">today</div>
+            <div class="transaction__value transaction__value--incomes">
+              400$
+            </div>
+          </div>
+          <div class="transaction__item">
+            <div class="transaction__date">12.04.2024</div>
+            <div class="transaction__value transaction__value--outcomes">
+              -20$
+            </div>
+          </div>
+          <p class="transaction__empty">Hi</p>
+        </div>
+        <div class="application--item operations">
+          <div class="operation__item operation__item--transfer">
+            <p class="operation__item--text">Transfer</p>
+            <form class="form form--transfer">
+              <div>
+                <label class="form__label">To</label>
+                <input
+                  type="text"
+                  class="form__input form__input--transfer-to"
+                />
+              </div>
+              <div>
+                <label class="form__label">Amount</label>
+                <input
+                  type="number"
+                  class="form__input form__input--transfer-amount"
+                />
+              </div>
+            </form>
+            <button class="btn form__btn form__btn--transfer">Send</button>
+          </div>
+          <div class="operation__item operation__item--loan">
+            <p class="operation__item--text">Loan request</p>
+            <form class="form form--loan">
+              <div>
+                <label class="form__label">Amount</label>
+                <input
+                  type="number"
+                  class="form__input form__input--loan-amount"
+                />
+              </div>
+            </form>
+            <button class="btn form__btn form__btn--loan">Request</button>
+          </div>
+          <div class="operation__item operation__item--close">
+            <p class="operation__item--text">Close account</p>
+            <form class="form form--close">
+              <div>
+                <label class="form__label">Account</label>
+                <input
+                  type="text"
+                  class="form__input form__input--close-account"
+                />
+              </div>
+              <div>
+                <label class="form__label">PIN</label>
+                <input
+                  type="password"
+                  class="form__input form__input--close-pin"
+                />
+              </div>
+            </form>
+            <button class="btn form__btn form__btn--close">Close</button>
+          </div>
+        </div>
+      </div>
+      <div class="error"></div>
+      <div class="message"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
