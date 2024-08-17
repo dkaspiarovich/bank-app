@@ -13,15 +13,15 @@ Welcome to the Bank Application!
     - Username: Sara, Password: 1111
     - Username: Kate, Password: 2222
 - **Sign up:** Create a new account:
-1. Enter your name.
-2. Setting and confirm the password.
-3. Сhoose a country from following options:
-     - UK
-     - USA
-     - Russia
-     - Japan
-     - Switzerland
-     - China
+  1. Enter your name.
+  2. Setting and confirm the password.
+  3. Сhoose a country from following options:
+       - UK
+       - USA
+       - Russia
+       - Japan
+       - Switzerland
+       - China
 
 **Note:** The selected country will automatically set your account’s currency, time zone, and date/time format according to its conventions.
 
