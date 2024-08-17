@@ -22,21 +22,22 @@ Welcome to the Bank Application!
      - Japan
      - Switzerland
      - China
-The selected country will automatically set your account’s currency, time zone, and date/time format according to its conventions.
+
+**Note:** The selected country will automatically set your account’s currency, time zone, and date/time format according to its conventions.
 
 
 ### Banking operations
-- Transfers: Send money to other accounts or recive money from them.
-- Request a loan: Apply for a loan.
-- Close account: Delete your account if you no longer wish to use it.
+- **Transfers:** Send money to other accounts or recive money from them.
+- **Request a loan:** Apply for a loan.
+- **Close account:** Delete your account if you no longer wish to use it.
 
 ### Transaction Tracking
-- Transaction History: View all your transactions, including sent and received money.
-- Incomes and expenses: View your incomes, outcomes, and interest earned.
+- **Transaction History:** View all your transactions, including sent and received money.
+- **Incomes and expenses:** View your incomes, outcomes, and interest earned.
 
 ### User interface
-- Current Balance: Your current account balance.
-- Activity Timer: A timer counts down from 2 minutes. If no actions are performed within this period, you will be automatically logged out.
+- **Current Balance:** Your current account balance.
+- **Activity Timer:** A timer counts down from 2 minutes. If no actions are performed within this period, you will be automatically logged out.
 
 ## Installation and Setup
 
