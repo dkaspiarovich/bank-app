@@ -1,4 +1,4 @@
-# Bank Application
+# Bank Application 💸
 
 Welcome to the Bank Application!
 
