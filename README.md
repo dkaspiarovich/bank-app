@@ -14,7 +14,7 @@ Welcome to the Bank Application!
     - Username: Kate, Password: 2222
 - **Sign up:** Create a new account:
   - Enter your name.
-  -  Setting and confirm the password.
+  -  Set and confirm the password.
   -  Choose a country from following options:
        - UK
        - USA
