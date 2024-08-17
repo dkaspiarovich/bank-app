@@ -31,6 +31,9 @@ Welcome to the Bank Application!
 - **Request a loan:** Apply for a loan.
 - **Close account:** Delete your account if you no longer wish to use it.
 
+### Currency conversion
+- **Automatic Conversion:** When making transactions between users in different countries, the application automatically converts the amount based on exchange rates from spring 2024
+
 ### Transaction Tracking
 - **Transaction History:** View all your transactions, including sent and received money.
 - **Incomes and expenses:** View your incomes, outcomes, and interest earned.
@@ -38,7 +41,12 @@ Welcome to the Bank Application!
 ### User interface
 - **Current Balance:** Your current account balance.
 - **Activity Timer:** A timer counts down from 2 minutes. If no actions are performed within this period, you will be automatically logged out.
-- **Notifications:** User will be notified with all errors occurred.
+
+- **Notifications:** User will be notified with all errors occurred:
+    - incorrect user
+    - wrong password
+    - not enough balance
+    - User does not exists etc.
 
 ## Installation and Setup
 
